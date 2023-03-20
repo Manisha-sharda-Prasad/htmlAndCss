@@ -1,0 +1,30 @@
+/* BY LEKHRAJ :: MORE  */
+footer {
+  color: wheat;
+  background-color: black;
+}
+
+div,
+span,
+p,
+h2 {
+  border: 1px dashed grey;
+}
+
+footer p {
+  color: red;
+  padding: 10px;
+}
+
+footer p:first-child {
+  color: greenyellow;
+}
+
+footer:hover {
+  transition: all 2s;
+  border: 1px solid orangered;
+  background-color: rgb(250, 250, 249);
+  background: radial-gradient(red, yellow);
+  background: linear-gradient(red, yellow);
+  cursor: pointer;
+}

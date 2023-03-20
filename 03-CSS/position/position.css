@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+article {
+  padding: 12px;
+  border: 1px solid grey;
+  margin: 12px;
+}
+
+.block {
+  height: 100px;
+  width: 100px;
+  padding: 4px;
+  border: 2px solid black;
+  /* margin: 12px; */
+}
+
+.block-1 {
+  background-color: rgb(123, 235, 235);
+  position: static;
+}
+
+.block-2 {
+  background-color: rgb(241, 145, 244);
+  position: fixed;
+  top: 30px;
+  right: 0;
+}
+.block-3 {
+  background-color: rgb(245, 247, 107);
+  position: relative;
+  /* top: 30px; */
+  right: 0;
+  left: 112px;
+}

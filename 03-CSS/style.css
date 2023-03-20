@@ -1,0 +1,214 @@
+h1,
+h2,
+p,
+li {
+  font-family: Tahoma, sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: rgb(195, 22, 211);
+}
+h1 {
+  color: rgba(0, 0, 255, 0.913);
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  background: pink;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(231, 73, 100);
+  border-width: 6px;
+  width: 50%;
+  height: 100%;
+}
+
+h2 {
+  font-size: 35px;
+  color: rgb(101, 48, 114);
+  text-align: left;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+li {
+  font-size: 18px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 19px;
+}
+
+#modern {
+  font-style: italic;
+}
+
+.related-author {
+  font-size: 25px;
+  color: rgb(103, 100, 100);
+  display: inline-block;
+}
+.tags-bullet {
+  list-style: lower-alpha;
+}
+
+#elements {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.main-header {
+  background-color: #8adaa3;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.make-heading {
+  display: inline-block;
+  padding: 10px;
+}
+
+aside {
+  background-color: #e6bcbc;
+  border: 5px solid rgb(231, 231, 231);
+}
+body {
+  background-color: rgb(203, 235, 224);
+}
+
+/* html-tag:psuedo-class */
+
+.opening-tag {
+  font-weight: bold;
+}
+
+li:first-child {
+  font-style: italic;
+}
+li:last-child {
+  font-style: italic;
+}
+
+li:first-child,
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: rgb(31, 168, 16);
+}
+
+li:hover:last-child {
+  transition: all 1s;
+  transform: translateY(-50px);
+}
+
+/* styling links  */
+
+/* select all achor */
+a {
+  color: rgb(241, 71, 71);
+}
+
+/* select all achor which has href attribute */
+a:link {
+  color: rgb(9, 25, 203);
+  /* text-decoration: none; */
+}
+
+/* select all achor which were visited successfully */
+a:visited {
+  /* color: #777; */
+  color: rgb(159, 13, 149);
+}
+
+/* select current achor which is being hovered */
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+/* select current achor for short click duration */
+a:active {
+  background-color: rgb(65, 51, 51);
+  font-style: italics;
+  font-size: xx-large;
+}
+/* lVHA */
+
+/* part-1 :: Selector */
+p {
+  /* part-2 :: style/s */
+}
+
+/* GOOD JOB ***** */
+article img {
+  border: 3px solid orangered;
+}
+article aside img {
+  border: none;
+}
+
+/* square bracket used to represent attributes */
+[targettt] {
+  background-color: yellow;
+}
+
+/* space :: descendent */
+/* .article2 > p {
+  background-color: rgb(211, 183, 237);
+} */
+
+/* .article2 > p {
+  background-color: rgb(211, 183, 237);
+} */
+
+.article2 div + p {
+  background-color: rgb(211, 183, 237);
+}
+
+input {
+  outline: none;
+  border-radius: 8px;
+  width: 240px;
+  height: 50px;
+  font-size: 34px;
+}
+input:focus {
+  background-color: rgb(235, 184, 184);
+  color: rgb(69, 60, 60);
+}
+
+/* ----- dispaly ----- start */
+.article--3 {
+  background-color: rgb(216, 193, 238);
+}
+.article--3 > div {
+  font-size: smaller;
+  border: 2px solid grey;
+  margin: 8px;
+  padding: 8px;
+  background-color: whitesmoke;
+  height: 30px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+/* ----- dispaly ----- end */
