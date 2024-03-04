@@ -1,0 +1,51 @@
+
+/* *{
+	text-align: right;
+}*/
+
+
+body{
+	background-image: url(background2.jpeg) ;
+	background-size: cover;
+}
+
+header{
+	background-color: #708FA3;
+}
+
+h2{
+	color: lightblue;
+	font-size: 30px;
+	border-style: solid;
+	border-color: lightskyblue;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+
+p:last-child{
+	color: lightblue !important;
+	
+}
+
+p{
+	color:darkblue ;
+	text-align: center;
+	font-weight: bolder;
+	line-height: 50px;
+	font-family: "Poiret One";
+/*	font-family: "Times New Roman";*/
+/*	font-family: Georgia;*/
+/*	font-size: 150%;*/
+/*	border-style: solid;*/
+/*	font-style: italic;*/
+/*	text-transform: uppercase;*/
+/*	text-decoration: line-through;*/
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	
+}
